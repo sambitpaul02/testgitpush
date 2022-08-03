@@ -11,18 +11,6 @@ d = {
 }
 
 
-d = {
-    "name" : "Sambit",
-    "email " : "paulsambit2@gmail.com",
-    "surname" : "paul"
-}
-ss
-d = {
-    "name" : "Sambit",
-    "email " : "paulsambit2@gmail.com",
-    "surname" : "paul"
-}
-
 db1 = client['mangotest']
 coll = db1['test']
 coll.insert_one(d)
