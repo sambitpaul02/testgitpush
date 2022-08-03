@@ -10,6 +10,19 @@ d = {
     "surname" : "paul"
 }
 
+
+d = {
+    "name" : "Sambit",
+    "email " : "paulsambit2@gmail.com",
+    "surname" : "paul"
+}
+
+d = {
+    "name" : "Sambit",
+    "email " : "paulsambit2@gmail.com",
+    "surname" : "paul"
+}
+
 db1 = client['mangotest']
 coll = db1['test']
 coll.insert_one(d)
